@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.img-section {
+    flex: 1;
+}
+
+.login-section {
+    flex: 0 0 45%;
+    padding-top: 30px;
+}
+
+.login-section {
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+
+.white-bg {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.white-bg input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 12px;
+    position: relative;
+    outline: none;
+    font-weight: 300;
+}
+
+.white-bg button {
+    width: 100%;
+    background-color: rgba(0, 149, 246, .3);
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.white-bg .or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-bg .or span {
+    display: block;
+    background-color: #dbdbdb;
+    height: 1px;
+}
+
+a.fb-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+a.fb-login img {
+    width: 16px;
+    margin-right: 12px;
+}
+
+a.fb-login p {
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+}
+
+a.fb-login:hover {
+    text-decoration: underline;
+}
+
+a.forgot-login {
+    color: #00376b;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.mt {
+    margin-top: 16px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-app p {
+    text-align: center;
+}
+
+.get-app a {
+    margin: 0 8px;
+}
+
+.get-app a img {
+    width: 130px;
+}
+
+footer ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer ol li {
+    margin: 0 5px;
+}
+
+footer ol li a {
+    color: #8e8e8e;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+footer>div select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 16px;
+    color: #8e8e8e;
+}
