@@ -10,13 +10,14 @@ Instagram landing page using HTML and CSS only
 * 0.0.1
     * Work in progress
 
+
 ## Screenshots
-
-![image](https://user-images.githubusercontent.com/83108798/119245775-55defe80-bb99-11eb-8e3f-ce4f4d70442f.png)
-
+![insta output](https://user-images.githubusercontent.com/83108798/120135042-075edf00-c1ed-11eb-9540-719af16b6642.png)
 
 
 ## Meta
+
+Image source - [@instagram](https://www.instagram.com)
 
 Web Xplained – [@youtube](https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg) - - -
 [@instagram](https://www.instagram.com/web.xplained/)
