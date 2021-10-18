@@ -1,10 +1,6 @@
-/* 
+/***********************
 Created by Web Xplained
-
-Check our youtube channel to know the process behind this project
-https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg 
-
-*/
+***********************/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pacifico&display=swap');
 *, *::after, *::before {
@@ -207,10 +203,36 @@ footer small {
     font-size: 12px;
 }
 
-/* 
+/***************************
+Project tutorial link styles
+***************************/
+
+#footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+#footer p {
+    margin: 5px 0;
+}
+
+#footer i {
+    color: red;
+    margin: 0 8px;
+}
+
+#footer a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+/***********************
 Created by Web Xplained
-
-Check our youtube channel to know the process behind this project
-https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg 
-
-*/
+***********************/
